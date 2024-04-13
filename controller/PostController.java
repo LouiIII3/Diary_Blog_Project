@@ -9,7 +9,6 @@ public class PostController {
         this.postService = postService;
     }
 
-
     @GetMapping("/user")
     public ResponseEntity<List<PostEntity>> getAllPostsByUser() {
         Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
