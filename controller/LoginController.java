@@ -16,7 +16,6 @@ public class LoginController {
 
         // Authentication successful
         final String token = jwtUtil.createJwt(loginDTO.getUsername(), "ROLE_USER", 60*60*1000L); // Assuming a default role for now
-
         return ResponseEntity.ok(new LoginService.LoginResponse(token));
     }
 
