@@ -29,7 +29,6 @@ public class MainController {
             return "diary";
     }
 
-
     @GetMapping("/diary2")
     public String createDiaryPage(Model model) {
         return "diary2";
