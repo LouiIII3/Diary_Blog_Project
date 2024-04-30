@@ -28,6 +28,8 @@
   - username: Stores the user's username or nickname.
 
   - password: Stores the user's password. (Note: In a real system, it should be encrypted for security.)
+    
   - role: Stores the role of the user. (e.g., admin, regular user)
+    
   - nickname: Stores the user's nickname.
 
