@@ -1,35 +1,44 @@
-# Diary_Blog_Project
+# Secret Diary Project
 
 <div align="center">
   <img style="width:60%; display:block; margin:0 auto;" src="https://github.com/LouiIII3/Diary_Blog_Project/assets/119919129/b2df4660-b490-40c5-84e6-d15130c6f52a"/>
 </div>
 
-<h1>Field descriptions</h1>
-<h2>PostEntity class: </h2>
-  
-  - id: Unique identifier for the blog post.
-  
-  - title: Stores the title of the blog post.
-    
-  - content: Holds the content of the blog post.
-    
-  - date: Stores the date when the blog post was written.
-    
-  - dayOfWeek: Stores the day of the week when the blog post was written.
+<br><br>
 
-  - weather: Stores the weather conditions on the day when the blog post was written.
+## Language Selection
 
+[English](README_EN.md) | [한국어](README_KR.md)
 
+<br><br>
 
-<h2>UserEntity class:</h2>
+## Introduction
 
-  - id: Unique identifier for the user.
-  
-  - username: Stores the user's username or nickname.
+This project aims to provide a platform where users can safely write and store their thoughts, memories, and secrets.
 
-  - password: Stores the user's password. (Note: In a real system, it should be encrypted for security.)
-    
-  - role: Stores the role of the user. (e.g., admin, regular user)
-    
-  - nickname: Stores the user's nickname.
+<br><br>
 
+## Features
+
+- **Secure Login**: Users can securely log into their accounts.
+- **Diary Writing**: Users can write and save diaries through a simple form.
+- **Diary Editing and Deletion**: Users can edit or delete the diaries they have written.
+- **Security Measures**: User diaries are encrypted and stored securely, allowing only the user to read and modify them.
+
+<br><br>
+
+## Technology Stack
+
+- **Spring Boot**: Used for backend development.
+- **Mustache**: Utilized for dynamic web page generation.
+- **Spring Security**: Manages user authentication and authorization.
+- **JPA (Java Persistence API)**: Used for interaction with the database.
+- **Hibernate**: Acts as the JPA implementation and supports object-relational mapping (ORM).
+- **HTML/CSS/JavaScript**: Utilized for frontend development.
+
+<br><br>
+
+## Development Environment Setup
+
+1. Build the project using the Spring Boot framework.
+2. Manage dependencies using Maven or Gradle.
