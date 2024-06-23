@@ -12,6 +12,7 @@
 
 <br><br>
 
+
 ## Introduction
 
 This project aims to provide a platform where users can safely write and store their thoughts, memories, and secrets.
